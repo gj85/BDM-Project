@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017. 4. 17, 오후 4:01:34
+    Author     : geun
+*/
+
+#firstInput {
+    position: relative ;
+    background-color: red;
+}
+
+#secondInput {
+    background-color: aqua;
+    
+}
+
+#thirdInput {
+    background-color: yellowgreen;
+}
+
+#fourthInput {
+    background-color: red;
+}
+
+#fifthInput {
+    background-color: aqua;
+}
+
+#sixthInput{
+    background-color: yellowgreen;
+    
+}
+
+#seventhInput{
+    background-color: red;
+    
+}
+
+#internalLinks {
+    position: fixed;
+    right:0;
+    bottom:0;
+    left:0;
+    width: 100%;
+    padding: 1rem;
+    background-color: activecaption;
+    text-align: center;
+}

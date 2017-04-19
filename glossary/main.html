@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Testing BDM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body bgcolor="orange">
+        
+        <!--
+        Showing glossary table
+        -->
+        
+        <h1 style="background-color: red">Showing Message</h1>
+        <br>
+        <h3>Show Glossary: </h3>
+        <button id="showGlossary">Show Glossary</button>
+        <br>
+        <ul style="background-color: teal" id="glossaryRecords"></ul>
+        <br>
+        
+        <!--
+        Adding to glossary table
+        -->
+        <h3>Add glossary: </h3>
+        <div id="firstInput">
+        GlossaryID:
+        <input type="text" id="GlossaryID" size="10" />
+        SubmittingDepartmentID:
+        <input type="text" id="SubmittingDepartmentID" size="10" />
+        TermName:
+        <input type="text" id="TermName" size="20" />
+        </div><br>
+        
+        
+        <div id="secondInput">
+        TermDescriptionTxt:
+        <input type="text" id="TermDescriptionTxt" size="100" />
+        TermCalculationTxt:
+        <input type="text" id="TermCalculationTxt" size="100" />
+        </div><br><div id="thirdInput">
+        TermAliasTxt:
+        <input type="text" id="TermAliasTxt" size="100" />
+        SubjectMatterExpertNam:
+        <input type="text" id="SubjectMatterExpertNam" size="10" />
+        <br>
+        TermCmnt:
+        <input type="text" id="TermCmnt" size="100" />
+        </div><br><div id="fourthInput">
+        TermStatusType:
+        <input type="text" id="TermStatusType" size="10" />
+        BusinessUseDesc:
+        <input type="text" id="BusinessUseDesc" size="10" />
+        ValidationTxt:
+        <input type="text" id="ValidationTxt" size="10" />
+        </div><br><div id="fifthInput">
+        BusinessMeasureInd:
+        <input type="text" id="BusinessMeasureInd" size="10" />
+        DatatrieveStatementTxt:
+        <input type="text" id="DatatrieveStatementTxt" size="100" />
+        <br>
+        DatatrieveProcedureNam:
+        <input type="text" id="DatatrieveProcedureNam" size="10" />
+        <br>
+        DatatrieveCmnt:
+        <input type="text" id="DatatrieveCmnt" size="100" />
+        </div><br><div id="sixthInput">
+        RelatedMeasuresTxt:
+        <input type="text" id="RelatedMeasuresTxt" size="100" />
+        ApprovedInd:
+        <input type="text" id="ApprovedInd" size="10" />
+        ApprovedByNam:
+        <input type="text" id="ApprovedByNam" size="10" />
+        ApprovedDt:
+        <input type="text" id="ApprovedDt" size="10" />
+        </div><br><div id="seventhInput">
+        KeywordsTxt:
+        <input type="text" id="KeywordsTxt" size="10" />
+        CreatedByUserNam:
+        <input type="text" id="CreatedByUserNam" size="10" />
+        CreatedDt:
+        <input type="text" id="CreatedDt" size="10" />
+        UpdatedByUserNam:
+        <input type="text" id="UpdatedByUserNam" size="10" />
+        UpdatedDt:
+        <input type="text" id="UpdatedDt" size="10" />
+        </div>
+        
+        
+        <button id="addGlo">Add</button>
+        <br>
+        <span id="status"></span>
+        <br>
+        <div id="internalLinks">
+            <a href="../departments/departments.html">Department Page</a>
+        </div>
+        <p>ㅋ</p>
+    </body>
+    
+</html>
